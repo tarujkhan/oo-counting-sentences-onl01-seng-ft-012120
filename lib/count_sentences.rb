@@ -11,7 +11,7 @@ class String
   end
 
     
-  end
+  
 
   def question?
  if self.end_with?("?")
@@ -21,7 +21,7 @@ class String
     end
   end
 
-  end
+  
 
   def exclamation?
  if self.end_with?("!")
@@ -31,7 +31,7 @@ class String
     end
   end
 
-  end
+  
 
   def count_sentences
     new_array = self.split(/[.?!]/).reject {|string| string.empty?}
